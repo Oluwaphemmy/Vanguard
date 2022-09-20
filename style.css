@@ -58,4 +58,72 @@ header .nav li {
   margin-left: 30px;
 }
 
-/*ToggleMenu*/
+/*Top stories*/
+
+.stories img {
+ width: 170px;
+    margin-right: -52px;
+}
+
+.stories {
+  display: flex;
+  flex-direction;
+  margin: 79px;
+  justify-content: space-evenly;
+}
+
+.tinu img {
+     height: auto;
+    width: 73%;
+}
+
+.title h2{
+  color: red;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.title h2{
+    color: black;
+}
+
+.tinu{
+    text-align: center;
+}
+
+.tinu p{
+          font-size: 18px;
+    font-weight: bold;
+    line-height: 44px;
+    margin-top: -20px;
+}
+
+.tinu2{
+    display: flex;
+}
+
+.tinu2 img{margin-right: -139px;
+
+}
+
+.tinu2 .asuu{
+        margin-left: 152px;
+}
+
+.tinu2 .asuu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.ln h3{
+    color: red;
+}
+
+.ln ul li{
+    list-style-type: none;
+}
+
+.ln .time{
+    color: red;
+}
