@@ -117,7 +117,8 @@ header .nav li {
 
 
 .ln h3{
-    color: red;
+   color: red;
+    line-height: 44px; color: red;
 }
 
 .ln ul li{
@@ -126,4 +127,36 @@ header .nav li {
 
 .ln .time{
     color: red;
+}
+
+.ronaldo{
+    line-height: 20px;
+    
+}
+
+.ronaldo a{
+    text-decoration: none;
+    color: black;
+}
+
+.ronaldo a:hover{
+    color: red;
+   
+}
+.ronaldo ul li:hover{
+    border-left: 1px solid red;
+    margin-right: 15px;
+}
+
+.btn{
+    line-height: 50px;
+    text-align: center;
+
+}
+
+.btn a{
+     color: #fe0000;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.3em;
 }
