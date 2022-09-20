@@ -135,6 +135,8 @@ header .nav li {
     padding: 12px;
     width: 249px;
     height: 793px;
+    scrollbar-color: gray red;
+    scrollbar-width: thin;
     
 }
 
