@@ -168,3 +168,91 @@ header .nav li {
   text-decoration: none;
   font-size: 1.3em;
 }
+
+/*Politics*/
+
+.politics {
+  display: flex;
+  margin: 79px;
+  justify-content: start;
+}
+
+.politics-1 img {
+  width: 28%;
+  height: auto;
+}
+
+.extra img {
+  width: 112px;
+  height: 104px;
+  float: left;
+  letter-spacing: 10px;
+  margin: 20px;
+}
+
+.extra {
+  display: flex;
+}
+
+.politics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-main img {
+  width: 200px;
+}
+
+.sub-main {
+}
+
+/*Video*/
+
+.video {
+  display: flex;
+  flex-direction: row;
+  margin: 37px;
+  margin-left: 185px;
+}
+
+.content img {
+  width: 152px;
+  margin: 37px;
+  height: 132px;
+}
+
+.content a {
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+}
+
+.vid {
+  text-decoration: none;
+  color: #fe0000;
+  font-size: 22px;
+}
+
+.content {
+  border-right: 1px solid black;
+}
+
+/*Aside*/
+aside {
+  width: 30%;
+  float: right;
+  padding-left: 15px;
+  margin-left: 233px;
+}
+
+.as img {
+  width: 80px;
+  float: left;
+}
+
+.as h3 {
+  margin-left: -96px;
+  color: red;
+  font-weight: bolder;
+}
