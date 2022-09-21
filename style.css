@@ -171,40 +171,54 @@ header .nav li {
 
 /*Politics*/
 
-.politics {
-  display: flex;
-  margin: 79px;
-  justify-content: start;
-}
-
-.politics-1 img {
-  width: 28%;
-  height: auto;
-}
-
-.extra img {
-  width: 112px;
-  height: 104px;
-  float: left;
-  letter-spacing: 10px;
-  margin: 20px;
-}
-
 .extra {
   display: flex;
 }
 
+/*politics*/
 .politics {
+  margin: 37px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
-.sub-main img {
-  width: 200px;
+.logo-1 {
+  width: 67%;
+  height: 82%;
+}
+.pol-1 h3 a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  font-size: 16px;
+}
+.logo-2 {
+  width: 31%;
+  height: 56%;
+  float: left;
+}
+.pol-2 {
+  margin-right: 126px;
+  border-left: 1px groove black;
+  margin-left: -88px;
 }
 
-.sub-main {
+.pol-title {
+  margin-top: -25px;
+  color: red;
+  font-weight: 700;
+}
+
+.pol-2 h4 {
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-left: 22px;
+  line-height: -10px;
+}
+
+.pol-2 {
+  display: flex;
+  flex-direction: column;
 }
 
 /*Video*/
@@ -223,9 +237,10 @@ header .nav li {
 }
 
 .content a {
-  font-size: 12px;
+  font-size: 1.1em;
   font-weight: 700;
   color: black;
+  text-decoration: none;
 }
 
 .vid {
@@ -238,21 +253,39 @@ header .nav li {
   border-right: 1px solid black;
 }
 
-/*Aside*/
+/*Aside
+*/
 aside {
   width: 30%;
   float: right;
   padding-left: 15px;
   margin-left: 233px;
-}
-
-.as img {
-  width: 80px;
-  float: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .as h3 {
   margin-left: -96px;
   color: red;
   font-weight: bolder;
+}
+.as img {
+  width: 80px;
+  float: left;
+}
+
+aside div {
+  align-content: flex-end;
+}
+
+aside a {
+  text-decoration: none;
+  align-items: flex-end;
+}
+aside h5 {
+  align-items: flex-end;
+}
+
+.footer {
+  color: black;
 }
