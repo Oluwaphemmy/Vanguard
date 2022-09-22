@@ -286,6 +286,132 @@ aside h5 {
   align-items: flex-end;
 }
 
+/*Footer*/
 .footer {
+  background-color: black;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  padding: 59px;
+  flex-wrap: wrap;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  margin-left: 80px;
+  line-height: 1.5;
+}
+
+.footer p a:hover {
+  columns: red;
+}
+.footer h5 {
+  color: red;
+  margin-left: 80px;
+  margin-top: 31px;
+  line-height: 5;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.copy {
+  background-color: white;
+}
+
+/*VIEWPINTS*/
+
+.viewpoints p {
+  color: #000;
+  background-color: aquamarine;
+  width: 19%;
+  margin: 10px;
+  text-align: center;
+  /* line-height: 32px; */
+  font-size: 30px;
+  padding: 57px;
+}
+
+.viewpoints a {
+  text-decoration: none;
+}
+
+.viewpoints h3 {
+  margin-top: -29px;
+  margin-right: -50px;
+  color: red;
+  font-weight: bold;
+}
+
+.v-1 {
+  background-image: url(/img/expert3.jpg);
+  opacity: 3px;
+}
+.v-1 a {
+  color: blueviolet;
+  font-size: 38px;
+  font-weight: 200;
+}
+
+.v-2 {
+  background-image: url(/img/expert1.jpg);
+}
+
+.v-3 {
+  background-image: url(/img/car-bg.jpg);
+}
+
+.v-3 a {
+  color: #fff;
+  font-size: 42px;
+}
+
+.viewpoints {
+  display: flex;
+  justify-content: center;
+
+  margin: 37px;
+  margin-left: -262px;
+  padding: 51px;
+}
+
+@media screen and (max-width: 768px) {
+  aside {
+    display: none;
+  }
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+/*INTERVIEW*/
+
+.interview img {
+  width: 71%;
+  margin-top: 34px;
+  height: 83%;
+}
+
+.interview {
+  display: flex;
+  flex-direction: row;
+  margin: 117px;
+  margin-left: 22px;
+}
+
+.interview .int-1 {
+  margin: 5px;
+}
+
+.interview a {
+  text-decoration: none;
   color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.interview h3 {
+  color: red;
+  margin-top: 12px;
+  margin-right: -36px;
 }
