@@ -180,17 +180,18 @@ header .nav li {
   margin: 37px;
   display: flex;
   flex-direction: row;
+  border-bottom: 1px solid black;
 }
 
 .logo-1 {
   width: 67%;
-  height: 82%;
+  height: 40%;
 }
 .pol-1 h3 a {
   text-decoration: none;
   font-weight: 700;
   color: #000;
-  font-size: 16px;
+  font-size: 19px;
 }
 .logo-2 {
   width: 31%;
@@ -198,12 +199,13 @@ header .nav li {
   float: left;
 }
 .pol-2 {
-  margin-right: 126px;
-  border-left: 1px groove black;
-  margin-left: -88px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 81px;
 }
 
 .pol-title {
+  margin-top: 13px;
   margin-top: -25px;
   color: red;
   font-weight: 700;
@@ -219,6 +221,10 @@ header .nav li {
 .pol-2 {
   display: flex;
   flex-direction: column;
+}
+
+.pol-1 {
+  margin-top: 44px;
 }
 
 /*Video*/
@@ -241,6 +247,10 @@ header .nav li {
   font-weight: 700;
   color: black;
   text-decoration: none;
+}
+
+.content h2 {
+  text-align: center;
 }
 
 .vid {
@@ -344,13 +354,14 @@ aside h5 {
 }
 
 .v-1 {
-  background-image: url(/img/expert3.jpg);
+  background-image: url(/img/Peter-Obi-400x300.webp);
+  background-color: red;
   opacity: 3px;
 }
 .v-1 a {
-  color: blueviolet;
+  color: black;
   font-size: 38px;
-  font-weight: 200;
+  font-weight: bolder;
 }
 
 .v-2 {
@@ -358,12 +369,13 @@ aside h5 {
 }
 
 .v-3 {
-  background-image: url(/img/car-bg.jpg);
+  background-image: url(/img/Peter-Obi-400x300.webp);
 }
 
 .v-3 a {
-  color: #fff;
-  font-size: 42px;
+  color: black;
+  font-size: 38px;
+  font-weight: bolder;
 }
 
 .viewpoints {
@@ -386,21 +398,23 @@ aside h5 {
 
 /*INTERVIEW*/
 
-.interview img {
-  width: 71%;
-  margin-top: 34px;
-  height: 83%;
-}
-
 .interview {
   display: flex;
   flex-direction: row;
-  margin: 117px;
-  margin-left: 22px;
+  margin: 123px;
+  margin-left: 117px;
+}
+
+.img1 {
+  width: 125%;
+  margin-left: -61px;
+}
+
+.txt-1 {
+  margin-left: -63px;
 }
 
 .interview .int-1 {
-  margin: 5px;
 }
 
 .interview a {
@@ -414,4 +428,64 @@ aside h5 {
   color: red;
   margin-top: 12px;
   margin-right: -36px;
+}
+.obi {
+  margin-top: -22px;
+  margin-left: 87px;
+  width: 52%;
+}
+
+.obi2 {
+  margin-left: 64px;
+}
+
+.obi:after {
+  background: red;
+}
+
+.jeni {
+  width: 64%;
+  margin-top: -17px;
+  margin-left: -4px;
+}
+.img1 {
+  border-right: 1px solid black;
+}
+
+.title {
+  margin-top: -91px;
+  color: red;
+}
+
+/*COLUNM*/
+
+.colunm {
+  display: flex;
+  margin: 45px;
+  /* margin-left: 29px; */
+  justify-content: center;
+}
+
+.tit h3 {
+  color: red;
+}
+
+.tit {
+  margin-top: -37px;
+  margin-right: -44px;
+}
+
+.colunm img {
+  height: auto;
+  width: 65%;
+}
+
+.img-bot {
+  margin-top: 15px;
+}
+
+.colunm h3 a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
 }
